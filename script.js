@@ -1,0 +1,1 @@
+alert('Selamat Datang di Varokah Store,Selamat berbelanja');

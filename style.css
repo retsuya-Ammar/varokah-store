@@ -1,0 +1,51 @@
+.navbar-brand {
+    font-family: 'Potta One', cursive;
+    font-size: 28px;
+}
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid black;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+.jumboroton-fluid {
+    margin-bottom: 20px;
+}
+
+.display-4 {
+    font-family: 'Potta One', cursive;
+}
+
+.lead {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.row .card:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    transform: scale(1.02);
+}
+
+.copyright {
+    padding: 10px;
+}
+.text-profil {
+    width: 700px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+.card{
+    height: 18rem;
+}
+.card-img-game {
+    width: 200px;
+    height: 200px;
+    position: static;
+}
